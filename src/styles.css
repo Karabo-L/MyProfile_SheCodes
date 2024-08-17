@@ -75,6 +75,25 @@ p {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 4px;
+}
+
+.about-file {
+  padding: 30px;
+}
+
+.about-section {
+  background-color: #f9f7fe;
+  padding: 160px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section p {
+  font-size: 16px;
+  font-family: var(--DEFheadingFont);
 }
 
 img {
@@ -101,5 +120,10 @@ img {
 
   .project-description {
     padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
