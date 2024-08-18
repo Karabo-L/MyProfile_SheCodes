@@ -28,6 +28,10 @@ h1 {
   color: rgb(235, 78, 104);
 }
 
+h4 {
+  font-size: 48px;
+}
+
 .hero p {
   font-family: var(--DEFcontentFont);
   font-size: 36px;
@@ -151,6 +155,40 @@ img {
   margin-bottom: 25px;
 }
 
+footer .contact-box {
+  background-color: #f9f7fe;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: #272142;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: #6c63ff;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: #6c63ff;
+  background-color: #f9f7fe;
+  padding: 10px 14px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+footer .social-links a:hover {
+  background-color: #6c63ff;
+  color: white;
+}
+
 @media (max-width: 900px) {
   body {
     text-align: center;
@@ -179,5 +217,17 @@ img {
 
   nav a {
     font-size: 14px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  footer .btn {
+    font-size: 18px;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
