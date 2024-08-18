@@ -19,7 +19,7 @@ h6 {
 
 .hero {
   background-color: #f9f7fe;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 h1 {
@@ -46,7 +46,8 @@ h4 {
   font-size: 24px;
 }
 
-.contact {
+.contact,
+.projects {
   background-color: #6c63ff;
   font-family: var(--DEFcontentFont);
   color: white;
@@ -107,6 +108,10 @@ p {
   margin: 20px 0 0;
 }
 
+.work {
+  padding: 60px 20px;
+}
+
 .work p {
   font-size: 14px;
 }
@@ -157,6 +162,7 @@ img {
 
 footer {
   text-align: center;
+  margin-top: 10px;
 }
 
 footer .contact-box {
